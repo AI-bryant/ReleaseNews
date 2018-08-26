@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>新闻发布网站</title>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css"/>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap-theme.css"/>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="../script/css/index.css"/>
+    <script src="../script/js/jquery-2.1.4.min.js"></script>
+    <script src="../bootstrap/js/bootstrap.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <script src="../script/js/index.js"></script>
+</head>
+<body>
+
+    <!-- 头部登入，注册 -->
+    <header>
+
+        <section class="top-header" >
+            <div class="container">
+                <div class="row">
+                    <!-- lg > md > xs >ms -->
+                    <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
+                        <div class="content"></div>
+                    </div>
+                    <div class="col-xs-12 col-sm-8 col-md-5 col-lg-5">
+                        <div  class="content">
+                            <a href="./reglog.jsp">Login</a>&nbsp;&nbsp; &nbsp; &nbsp; <a href="./reglog.jsp">Register</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="main-header text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <a href="index.jsp">
+                            <img style="padding-top: 15px;width: 45%" src="../images/newsLogo.png"/>
+                        </a>
+                    </div>
+                    <div class="col-lg-5  col-lg-offset-5">
+                        <ul class="list-header list-inline text-center">
+                            <li><a href="index.jsp">AXF.</a></li>
+                            <li><a href="index.jsp">LIST</a></li>
+                            <li><a href="index.jsp">LOGIN</a></li>
+                            <li><a href="index.jsp">ABOUT</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <img src="../images/wallhaven-154455.jpg" style="position:absolute;left:0px;top:150px;width: 100%;height: 500px;"/>
+
+        <div class="img-header text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="img-header-info col-lg-12">
+                        <div class="row">
+                            <div class="img-title01 col-lg-6 col-lg-offset-6">
+                                <h1><b>UNDERSTANDING<br>THE WORLD</b></h1><br>
+                                <h2>BY AXF<br> NEWS WEBSITE</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="img-title02 col-lg-12">
+                                <a href="login.jsp"><div class="col-lg-3 col-lg-offset-3 img-button">
+                                    JOIN NOW
+                                </div></a>
+                                <a href="#news-categories"><div class="col-lg-5 col-lg-offset-1 img-button">
+                                    NEWS LIST
+                                </div></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- 当日重量新闻 -->
+    <div class="headline-News  text-center">
+        <div class="container">
+            <div class="row">
+                <div class="headline-News-title col-lg-12">
+                    <h1>今日头条</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="headline-News-content col-lg-12" style="background: url('../images/naslovna_slika_1.jpg') 100%;">
+                    <p>2016.9.21</p>
+                    <h3>"一带一路":习近平打开的"筑梦空间"</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 新闻类别 -->
+    <div id="news-categories" class="news-categories" style="margin-top: 50px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="thumbnail" style="height: 334px;text-align: center;">
+                        <a href="list.jsp">
+                            <img class="small-imgs" src="../images/wallhaven-256033.jpg" style="background-color: #CF4646;"/>
+                        </a>
+                        <div class="caption">
+                            <h3>
+                                <a href="list.jsp" title="今日新闻">
+                                    今日新闻<br>
+                                    <br>
+                                </a>
+                            </h3>
+                                <p>最新新闻及时看<br>世界热点尽收眼底</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="thumbnail" style="height: 334px;text-align: center;">
+                        <a href="list.jsp">
+                            <img class="small-imgs" src="../images/wallhaven-128418.jpg" style="background-color: #3498db;"/>
+                        </a>
+                        <div class="caption">
+                            <h3>
+                                <a href="list.jsp" title="今日新闻">
+                                    娱乐<br>
+                                    <br>
+                                </a>
+                            </h3>
+                                <p>最新新闻及时看</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="thumbnail" style="height: 334px;text-align: center;">
+                        <a href="list.jsp">
+                            <img class="small-imgs" src="../images/wallhaven-58192.jpg" style="background-color: #f0db4f;"/>
+                        </a>
+                        <div class="caption">
+                            <h3>
+                                <a href="list.jsp" title="今日新闻">
+                                    军事<br>
+                                    <br>
+                                </a>
+                            </h3>
+                                <p>最新新闻及时看</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="thumbnail" style="height: 334px;text-align: center;">
+                        <a href="list.jsp">
+                            <img class="small-imgs" src="../images/wallhaven-129706.jpg" style="background-color: #1fa67a;"/>
+                        </a>
+                        <div class="caption">
+                            <h3>
+                                <a href="list.jsp" title="今日新闻">
+                                    体育<br>
+                                    <br>
+                                </a>
+                            </h3>
+                                <p>最新新闻及时看</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="thumbnail" style="height: 334px;text-align: center;">
+                        <a href="list.jsp">
+                            <img class="small-imgs" src="../images/wallhaven-326294.jpg" style="background-color: #6f5499;"/>
+                        </a>
+                        <div class="caption">
+                            <h3>
+                                <a href="list.jsp" title="今日新闻">
+                                    经济<br>
+                                    <br>
+                                </a>
+                            </h3>
+                                <p>最新新闻及时看<br>世界热点尽收眼底</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="thumbnail" style="height: 334px;text-align: center;">
+                        <a href="list.jsp">
+                            <img class="small-imgs" src="../images/wallhaven-154828.png" style="background-color: #0769ad;"/>
+                        </a>
+                        <div class="caption">
+                            <h3>
+                                <a href="list.jsp" title="今日新闻">
+                                    游戏<br>
+                                    <br>
+                                </a>
+                            </h3>
+                                <p>最新新闻及时看</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="thumbnail" style="height: 334px;text-align: center;">
+                        <a href="list.jsp">
+                            <img class="small-imgs" src="../images/wallhaven-345564.jpg" style="background-color: #4caf50;"/>
+                        </a>
+                        <div class="caption">
+                            <h3>
+                                <a href="list.jsp" title="今日新闻">
+                                    社会<br>
+                                    <br>
+                                </a>
+                            </h3>
+                                <p>最新新闻及时看</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="thumbnail" style="height: 334px;text-align: center;">
+                        <a href="list.jsp">
+                            <img class="small-imgs" src="../images/wallhaven-397759.jpg" style="background-color: #f0db4f;"/>
+                        </a>
+                        <div class="caption">
+                            <h3>
+                                <a href="list.jsp" title="今日新闻">
+                                    国际<br>
+                                    <br>
+                                </a>
+                            </h3>
+                                <p>最新新闻及时看</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 底部连接 -->
+    <footer style="background-color: #272727;margin-top: 50px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 foot-link">
+                    <a href="http://www.baidu.com">baidu</a><br>
+                    <a href="http://www.baidu.com">baidu</a><br>
+                    <a href="http://www.baidu.com">baidu</a><br>
+                    <a href="http://www.baidu.com">baidu</a>
+                </div>
+                <div class="col-lg-3 foot-link">
+                    <a href="http://www.baidu.com">baidu</a><br>
+                    <a href="http://www.baidu.com">baidu</a><br>
+                    <a href="http://www.baidu.com">baidu</a><br>
+                    <a href="http://www.baidu.com">baidu</a>
+                </div>
+                <div class="col-lg-3 foot-link">
+                    <a href="http://www.baidu.com">baidu</a><br>
+                    <a href="http://www.baidu.com">baidu</a><br>
+                    <a href="http://www.baidu.com">baidu</a><br>
+                    <a href="http://www.baidu.com">baidu</a>
+                </div>
+                <div class="col-lg-3 foot-link copyright">
+                    <h4>COPYRIGHT AXF NEWS 2016</h4>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

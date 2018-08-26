@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+/*登录页面*/
+*{border: 0px;margin: 0px;padding: 0px;}
+body{overflow-y:hidden;font-family: "FontAwesome", 微软雅黑;background:url(../images/servers-room-server_1920x1080_sc.jpg) no-repeat;background-size:100%; _position: absolute;_top: expression(eval(document.body.scrollTop));_left: expression(eval(document.body.scrollLeft));filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/loginBg.jpg',sizingMethod='scale');}
+#header{font-size:19px;color:#FFFFFF;border-radius: 15px 15px 0px 0px;line-height: 50px;text-align: center;box-shadow: 10px 10px 10px rgba(0,0,0,.3);
+	background: -ms-linear-gradient(#525050, #393838);background: -moz-linear-gradient(#525050, #393838);background: -webkit-gradient(linear, 0 0, 0 100%, from(#525050), to(#393838));
+	position: absolute;width: 400px;height: 50px;top: 50%;left: 50%;margin-left: -302px;margin-top:-162px;}
+.label{color: #706e6c;}
+.login-con{border-radius:0px 0px 25px 25px;background: #FFFFFF;width:580px;height:224px;position:absolute;top:50%;margin-top:-112px;left:50%;margin-left:-302px;box-shadow: 10px 10px 10px rgba(0,0,0,.3);background:url(../images/A_logo.png) no-repeat;}/*background:url(../images/loginbg2_tongyong.png) no-repeat;*/
+.login-right-con{width:428px;float:right;height:224px;}
+.login-right-con .con{margin-left:160px;margin-top:50px;}
+.login-right-con .con a{display:inline-block;font:12px/2em;text-align:center;}/*"sinsum"*/
+.login-right-con .con a.loginBtn,.login-right-con .con a.resetBtn{width:70px;height:28px;line-height:28px;background: -ms-linear-gradient(#525050, #393838);background: -moz-linear-gradient(#525050, #393838);background: -webkit-gradient(linear, 0 0, 0 100%, from(#525050), to(#393838));color:#fff;}
+.login-right-con .con a.resetBtn{color:#996319;background:-webkit-gradient(linear, 0 0, 0 100%, from(#fbd568), to(#ffb347));
+	background: -ms-linear-gradient(#fbd568, #ffb347);background: -moz-linear-gradient(#fbd568, #ffb347);margin-left:6px;}
+.login-right-con .con input,.login-right-con .con select{border-radius:5px;width:152px;height:30px;border:3px solid #ebe6e2;line-height:30px;}
+.con input:hover{border:3px solid #c7c2c0;transition: all 500ms;}
+.con select:hover{border:3px solid #c7c2c0;transition: all 500ms;}
+.login-right-con .con input{padding-left:4px;}
+.login-right-con .con select{width:162px;}
+.login-right-con .con div{margin-bottom:14px;}
+.login-right-con .con img{margin-bottom:64px;}
+.login-right-con .con p{color:#393b3c;font-size:12px;margin-top:12px;}/*font-family:arial;*/
+.login-right-con .con label{width:60px;float:left;height:32px;line-height:32px;}
+.pdding-l-60{padding-left:60px;}
+/*option{line-height: 30px;height: 30px;}
+select{appearance:none;-moz-appearance:none;-webkit-appearance:none;}*/
